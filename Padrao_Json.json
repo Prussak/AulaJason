@@ -1,0 +1,60 @@
+
+------------------
+PADRÃO jSON
+site para conferência: https://jasonformatter.curiousconcept.com/
+-Abrir chaves
+-Aspas
+-Informação: valor da informação
+-Se o valor da info for multiplo, abrir e fechar {}
+-Numero não precisa de aspas
+-Se tiver mais de uma info, colocar vírgula
+-------------------
+Primeira Lição:
+---------
+
+{
+"mensagem": "oii",
+"idade": 19
+}
+
+Pedido 1
+----------
+
+{
+    "prato": "XBurger",
+    "bebida": "Suco Laranja"
+}
+
+Pedido 2
+----------
+
+{
+    "prato": {
+        "nome":"XBurger",
+        "tipo":"veg"
+    },
+
+    "bebida": "Suco Laranja"
+}
+
+Pedido 3
+----------
+[
+    {
+        "prato": {
+            "nome":"XBurger",
+            "tipo":"veg"
+        },
+
+        "bebida": "Suco Laranja"
+    },
+
+    {
+        "prato": {
+            "nome":"XBurger",
+            "tipo":"normal"
+        },
+
+        "bebida": "Suco Laranja"
+    }
+]
